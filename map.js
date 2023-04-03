@@ -31,7 +31,7 @@ console.log(ages);
 ages = people.map((person) => person.age);
 console.log(ages);
 
-// option 3
+// option 3 (reference the function)
 
 const getAges = (person) => person.age;
 
